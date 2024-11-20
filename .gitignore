@@ -56,3 +56,5 @@ Thumbs.db
 # Maven / Gradle directories
 .mvn/
 .gradle/
+
+project-plan.md
