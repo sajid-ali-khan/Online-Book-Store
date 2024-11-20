@@ -36,3 +36,23 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# IntelliJ IDEA
+.idea/
+
+# Java class files
+*.class
+
+# Log files
+*.log
+
+# Operating system files
+Thumbs.db
+
+# Build directories
+/target/
+/out/
+
+# Maven / Gradle directories
+.mvn/
+.gradle/
