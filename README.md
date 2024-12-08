@@ -14,7 +14,7 @@ A simple online bookstore UI designed with Tailwind CSS. This project aims to cr
 
 - **HTML**: Structure of the webpage.
 - **Tailwind CSS**: For styling the UI components.
-- **Font Awesome**: For icons (e.g., user icon, shopping cart).
+- **Javascript**: For functionality (with DOM).
 
 
 ## Future Features
