@@ -8,19 +8,19 @@
     <link rel="stylesheet" href="output.css">
 </head>
 
-<body class="flex flex-col">
+<body class="flex flex-col ">
     <header class="bg-gray-900 text-white py-4 px-6 flex justify-between items-center">
         <div class="font-semibold text-xl">BookStore</div>
         <input type="text" placeholder="Search for books..."
             class="px-4 py-2 rounded-lg border border-gray-300 bg-white text-gray-700 w-2/4" />
         <div class="flex items-center space-x-6">
-            <i class="cursor-pointer text-l">login</i>
-            <i class="cursor-pointer text-l">signup</i>
+            <a href="#" class="cursor-pointer text-l">login</a>
+            <a href="#" class="cursor-pointer text-l">signup</a>
         </div>
     </header>
     <div class="bg-gray-100 py-4 px-6">
         <h2 class="text-2xl font-semibold mb-4">Browse by Category</h2>
-        <div class="flex space-x-6 overflow-x-auto">
+        <div class="flex flex-col sm:flex-row sm:space-x-6 gap-4">
             <button class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-400">Fiction</button>
             <button class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-400">Non-Fiction</button>
             <button class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-400">Science</button>
@@ -28,14 +28,13 @@
         </div>
     </div>
 
-    
+
     <div id="bookContainer" class="px-6 py-4 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
-        
+
     </div>
 
-
-    <footer class="bg-gray-900 text-white py-6 px-4">
-        <div class="flex sm:flex-row sm:justify-between flex-col">
+    <footer class="bg-gray-900 text-white py-6 px-4 w-full">
+        <div class="flex sm:flex-row sm:justify-between flex-col text-center">
             <p>&copy; 2024 BookStore. All rights reserved.</p>
             <div class="space-x-6">
                 <a href="#" class="text-gray-400 hover:text-white">Facebook</a>
@@ -44,6 +43,7 @@
             </div>
         </div>
     </footer>
+
 
 
     <script src="script.js"></script>
